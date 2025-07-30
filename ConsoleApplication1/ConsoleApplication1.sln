@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{6BB63A91-CC0B-4EBF-B477-8EC3F33C9E76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\src\Engine\C2DArray.h = ..\src\Engine\C2DArray.h
+		..\src\Game\CBoard.cpp = ..\src\Game\CBoard.cpp
+		..\src\Game\CBoard.h = ..\src\Game\CBoard.h
+		..\src\Game\CBoardUtils.cpp = ..\src\Game\CBoardUtils.cpp
+		..\src\Game\CBoardUtils.h = ..\src\Game\CBoardUtils.h
+		..\src\Engine\CDialog.cpp = ..\src\Engine\CDialog.cpp
+		..\src\Engine\CDialog.h = ..\src\Engine\CDialog.h
+		..\src\Game\CGame.cpp = ..\src\Game\CGame.cpp
+		..\src\Game\CGame.h = ..\src\Game\CGame.h
+		..\src\Game\CGameLayout.cpp = ..\src\Game\CGameLayout.cpp
+		..\src\Game\CGameLayout.h = ..\src\Game\CGameLayout.h
+		..\src\Game\CGhost.cpp = ..\src\Game\CGhost.cpp
+		..\src\Game\CGhost.h = ..\src\Game\CGhost.h
+		..\src\Game\CGhostHard.cpp = ..\src\Game\CGhostHard.cpp
+		..\src\Game\CGhostHard.h = ..\src\Game\CGhostHard.h
+		..\src\Game\CGhostManager.cpp = ..\src\Game\CGhostManager.cpp
+		..\src\Game\CGhostManager.h = ..\src\Game\CGhostManager.h
+		..\src\Game\CGhostMedium.cpp = ..\src\Game\CGhostMedium.cpp
+		..\src\Game\CGhostMedium.h = ..\src\Game\CGhostMedium.h
+		..\src\Engine\CInputManager.cpp = ..\src\Engine\CInputManager.cpp
+		..\src\Engine\CInputManager.h = ..\src\Engine\CInputManager.h
+		..\src\Engine\CLayout.cpp = ..\src\Engine\CLayout.cpp
+		..\src\Engine\CLayout.h = ..\src\Engine\CLayout.h
+		..\src\Engine\CMenu.cpp = ..\src\Engine\CMenu.cpp
+		..\src\Engine\CMenu.h = ..\src\Engine\CMenu.h
+		..\src\Engine\CMenuItem.cpp = ..\src\Engine\CMenuItem.cpp
+		..\src\Engine\CMenuItem.h = ..\src\Engine\CMenuItem.h
+		..\src\Engine\CMenuItemOption.cpp = ..\src\Engine\CMenuItemOption.cpp
+		..\src\Engine\CMenuItemOption.h = ..\src\Engine\CMenuItemOption.h
+		..\src\Game\CMenuLayout.cpp = ..\src\Game\CMenuLayout.cpp
+		..\src\Game\CMenuLayout.h = ..\src\Game\CMenuLayout.h
+		..\src\Engine\CNCurses.cpp = ..\src\Engine\CNCurses.cpp
+		..\src\Engine\CNCurses.h = ..\src\Engine\CNCurses.h
+		..\src\Game\CPlayer.cpp = ..\src\Game\CPlayer.cpp
+		..\src\Game\CPlayer.h = ..\src\Game\CPlayer.h
+		..\src\Engine\CState.h = ..\src\Engine\CState.h
+		..\src\Game\CStateGame.cpp = ..\src\Game\CStateGame.cpp
+		..\src\Game\CStateGame.h = ..\src\Game\CStateGame.h
+		..\src\Engine\CStateManager.cpp = ..\src\Engine\CStateManager.cpp
+		..\src\Engine\CStateManager.h = ..\src\Engine\CStateManager.h
+		..\src\Game\CStateMenu.cpp = ..\src\Game\CStateMenu.cpp
+		..\src\Game\CStateMenu.h = ..\src\Game\CStateMenu.h
+		..\src\Engine\CTime.cpp = ..\src\Engine\CTime.cpp
+		..\src\Engine\CTime.h = ..\src\Engine\CTime.h
+		..\src\Engine\CTimer.cpp = ..\src\Engine\CTimer.cpp
+		..\src\Engine\CTimer.h = ..\src\Engine\CTimer.h
+		..\src\Engine\CWindow.cpp = ..\src\Engine\CWindow.cpp
+		..\src\Engine\CWindow.h = ..\src\Engine\CWindow.h
+		..\src\Doc\doc.h = ..\src\Doc\doc.h
+		..\src\main.cpp = ..\src\main.cpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BB63A91-CC0B-4EBF-B477-8EC3F33C9E76}.Debug|x64.ActiveCfg = Debug|x64
+		{6BB63A91-CC0B-4EBF-B477-8EC3F33C9E76}.Debug|x64.Build.0 = Debug|x64
+		{6BB63A91-CC0B-4EBF-B477-8EC3F33C9E76}.Debug|x86.ActiveCfg = Debug|Win32
+		{6BB63A91-CC0B-4EBF-B477-8EC3F33C9E76}.Debug|x86.Build.0 = Debug|Win32
+		{6BB63A91-CC0B-4EBF-B477-8EC3F33C9E76}.Release|x64.ActiveCfg = Release|x64
+		{6BB63A91-CC0B-4EBF-B477-8EC3F33C9E76}.Release|x64.Build.0 = Release|x64
+		{6BB63A91-CC0B-4EBF-B477-8EC3F33C9E76}.Release|x86.ActiveCfg = Release|Win32
+		{6BB63A91-CC0B-4EBF-B477-8EC3F33C9E76}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96354E71-17FF-465E-8A8C-E03FF87087D0}
+	EndGlobalSection
+EndGlobal

@@ -1,7 +1,8 @@
 #ifndef CNCURSES_H_DEFINED
 #define CNCURSES_H_DEFINED
 
-#include <ncurses.h>
+//#include "Engine/ncurses.h"
+//#include <Engines/ncurses.h>
 
 /// Enumeration of colour pairs used for printing on
 /// stdscr.

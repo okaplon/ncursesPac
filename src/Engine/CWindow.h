@@ -5,7 +5,7 @@
 
 #include <string>
 #include <vector>
-#include <ncurses.h>
+#include </mingw64/include/ncurses/ncurses.h>
 
 
 /// Alias for filling whole parent window with child window.

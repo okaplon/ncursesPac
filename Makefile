@@ -30,7 +30,7 @@ INCLUDESDIR = -I"src/"
 LIBSDIR     =
 
 # Project source files
-CXXFILES = $(shell find src -type f -name '*.cpp')
+CXXFILES = $(wildcard src/*.cpp)
 OBJECTS  = $(CXXFILES:.cpp=.o)
 
 
