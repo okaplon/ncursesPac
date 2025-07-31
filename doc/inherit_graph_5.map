@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classCGhost.html" title="Entity of ghost, on crossroads goes random way." alt="" coords="5,31,72,57"/>
+<area shape="rect" id="Node000001" href="$classCGHostMedium.html" title="Ghost that checks if there is player on sight, if so, tries to follow him." alt="" coords="120,5,235,32"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="86,33,119,27,120,32,87,38"/>
+<area shape="rect" id="Node000002" href="$classCGhostHard.html" title="Smartest type of ghost, on every crossroad checks where ghost is and goes that way." alt="" coords="130,56,224,83"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="87,50,130,58,129,63,86,55"/>
+</map>

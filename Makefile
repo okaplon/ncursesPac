@@ -25,12 +25,13 @@ LEVELDIR   = $(DATAROOTDIR)/games/nsnake/levels
 EXE         = $(PACKAGE)
 CDEBUG      = -O0
 CXXFLAGS    = $(CDEBUG) -c -g -Wno-reorder -std=c++11 -Wall -pedantic -Wno-long-long -O0 -ggdb $(CFLAGS_PLATFORM) # -Wall -Wextra
-LDFLAGS     = -lmenu -lncurses $(LDFLAGS_PLATFORM)
+LDFLAGS     = -lmenuw -lncursesw $(LDFLAGS_PLATFORM)
 INCLUDESDIR = -I"src/"
 LIBSDIR     =
+LDLIBS += -lncursesw
 
 # Project source files
-CXXFILES = $(wildcard src/*.cpp)
+CXXFILES = $(shell find src -type f -name '*.cpp')
 OBJECTS  = $(CXXFILES:.cpp=.o)
 
 
@@ -53,36 +54,36 @@ endif
 all:compile doc
 	# Build successful!
 
-compile: $(EXE) 
-	# Build successful!
+compile: $(BIN) 
 
-$(EXE): $(OBJECTS) $(ENGINE_OBJECTS) $(COMMANDER_OBJECTS)
-	# Linking...
-	$(MUTE)$(CXX) $(OBJECTS) $(ENGINE_OBJECTS) $(COMMANDER_OBJECTS) -o $(EXE) $(LIBSDIR) $(LDFLAGS)
-
-src/%.o: src/%.cpp
-	# Compiling $<...
-	$(MUTE)$(CXX) $(CXXFLAGS) $(CDEBUG) $< -c -o $@ $(DEFINES) $(INCLUDESDIR)
+$(BIN): $(OBJECTS) $(ENGINE_OBJECTS) $(COMMANDER_OBJECTS)
 
 
-run: compile 
-	# Running...
-	$(MUTE)./$(EXE)
 
-doc:
-	# Generating documentation...
-	$(MUTE)doxygen Doxyfile
-
-docclean:
-	# Cleaning documentation...
 	-$(MUTE)rm $(VTAG) -rf doc
+
+	$(MUTE)rm $(VTAG) -f $(OBJECTS)
+	$(MUTE)rm $(VTAG) -f $(BIN)
+	# Cleaning object files...
+	$(MUTE)rm $(VTAG) -f $(ENGINE_OBJECTS) $(COMMANDER_OBJECTS)clean-all: clean
 
 clean: docclean
 	# Cleaning object files...
-	$(MUTE)rm $(VTAG) -f $(OBJECTS)
-	$(MUTE)rm $(VTAG) -f $(EXE)
+docclean:
+	# Cleaning documentation...
+	# Generating documentation...
+	$(MUTE)doxygen Doxyfile
+doc:
+run: compile 
 
-clean-all: clean
-	# Cleaning object files...
-	$(MUTE)rm $(VTAG) -f $(ENGINE_OBJECTS) $(COMMANDER_OBJECTS)
+	# Running...
+	./$(BIN)
+	$(CXX) $(CXXFLAGS) $(CDEBUG) $< -c -o $@ $(DEFINES) $(INCLUDESDIR)
+
+src/%.o: src/%.cpp
+	# Compiling $<...
+	$(CXX) $(OBJECTS) $(ENGINE_OBJECTS) $(COMMANDER_OBJECTS) -o $(BIN) $(LIBSDIR) $(LDFLAGS)
+	# Linking...
+	#
+
 

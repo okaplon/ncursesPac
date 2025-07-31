@@ -1,0 +1,8 @@
+<map id="CGameLayout" name="CGameLayout">
+<area shape="rect" id="Node000001" title="Layout for CStateGame, defines where all sub&#45;windows should be." alt="" coords="13,180,118,207"/>
+<area shape="rect" id="Node000002" href="$classCLayout.html" title="Main Layout for things how are shown on screen." alt="" coords="129,104,200,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,142,84,182,81,178,134,138"/>
+<area shape="rect" id="Node000003" href="$classCWindow.html" title="A wrap around class for ncurses WINDOW." alt="" coords="5,5,84,32"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="41,47,35,87,38,130,48,156,60,178,55,181,43,158,33,131,30,87,35,47"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="73,40,150,101,147,106,70,44"/>
+</map>

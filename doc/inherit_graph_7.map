@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classCLayout.html" title="Main Layout for things how are shown on screen." alt="" coords="5,31,76,57"/>
+<area shape="rect" id="Node000001" href="$classCGameLayout.html" title="Layout for CStateGame, defines where all sub&#45;windows should be." alt="" coords="124,5,229,32"/>
+<area shape="poly" id="edge3_Node000000_Node000001" title=" " alt="" coords="90,32,123,26,124,31,91,37"/>
+<area shape="rect" id="Node000002" href="$classCMenuLayout.html" title="Layout of what will be drawn at CStateMenu." alt="" coords="125,56,228,83"/>
+<area shape="poly" id="edge4_Node000000_Node000002" title=" " alt="" coords="92,51,125,57,124,62,91,56"/>
+</map>

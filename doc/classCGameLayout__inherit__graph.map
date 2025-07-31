@@ -1,0 +1,5 @@
+<map id="CGameLayout" name="CGameLayout">
+<area shape="rect" id="Node000001" title="Layout for CStateGame, defines where all sub&#45;windows should be." alt="" coords="5,80,111,107"/>
+<area shape="rect" id="Node000002" href="$classCLayout.html" title="Main Layout for things how are shown on screen." alt="" coords="23,5,93,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="61,48,61,80,55,80,55,48"/>
+</map>

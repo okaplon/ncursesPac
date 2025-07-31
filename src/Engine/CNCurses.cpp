@@ -1,8 +1,10 @@
 #include <Engine/CNCurses.h>
 
-#include <sys/select.h>			// select()
+//#include <sys/select.h>			// select()
+#include <sys/types.h>			// fd_set
 #include <unistd.h>				// STDIN_FILENO
 #include <locale.h>
+#include <winsock2.h>
 
 
 int CNCurses::pressed_key = ERR;

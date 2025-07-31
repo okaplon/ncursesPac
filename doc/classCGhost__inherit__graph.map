@@ -1,0 +1,7 @@
+<map id="CGhost" name="CGhost">
+<area shape="rect" id="Node000001" title="Entity of ghost, on crossroads goes random way." alt="" coords="94,5,160,32"/>
+<area shape="rect" id="Node000002" href="$classCGHostMedium.html" title="Ghost that checks if there is player on sight, if so, tries to follow him." alt="" coords="5,80,121,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,46,76,81,72,78,104,42"/>
+<area shape="rect" id="Node000003" href="$classCGhostHard.html" title="Smartest type of ghost, on every crossroad checks where ghost is and goes that way." alt="" coords="145,80,240,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,42,183,78,179,81,146,45"/>
+</map>

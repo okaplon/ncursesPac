@@ -1,4 +1,9 @@
-#include <Engine/CTimer.h>
+#ifdef _WIN32
+    typedef long suseconds_t;
+#endif
+#include "CTimer.h"
+#define _BSD_SOURCE
+#include <sys/time.h>
 
 #include <iostream>	
 

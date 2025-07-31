@@ -1,0 +1,12 @@
+<map id="CMenuLayout" name="CMenuLayout">
+<area shape="rect" id="Node000001" title="Layout of what will be drawn at CStateMenu." alt="" coords="56,221,158,248"/>
+<area shape="rect" id="Node000002" href="$classCLayout.html" title="Main Layout for things how are shown on screen." alt="" coords="72,113,142,140"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,156,110,221,104,221,104,156"/>
+<area shape="rect" id="Node000003" href="$classCWindow.html" title="A wrap around class for ncurses WINDOW." alt="" coords="5,5,84,32"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="34,47,19,96,17,123,23,148,36,170,53,190,89,219,85,223,49,194,31,173,18,150,12,123,13,95,28,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="62,44,102,111,97,114,57,46"/>
+<area shape="rect" id="Node000004" href="$classCStateMenu.html" title=" " alt="" coords="167,113,261,140"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="192,153,122,223,118,219,188,149"/>
+<area shape="rect" id="Node000005" href="$classCState.html" title="Abstract class definition of a game state." alt="" coords="183,5,245,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="216,48,216,113,211,113,211,48"/>
+</map>

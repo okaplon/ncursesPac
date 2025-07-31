@@ -1,0 +1,24 @@
+<map id="CGame" name="CGame">
+<area shape="rect" id="Node000001" title=" " alt="" coords="310,365,377,392"/>
+<area shape="rect" id="Node000002" href="$classCBoard.html" title="A Board where monsters and player runs." alt="" coords="12,224,78,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,264,79,304,94,323,113,339,149,352,202,362,310,373,310,378,201,367,148,358,110,344,91,327,74,307,53,267"/>
+<area shape="rect" id="Node000003" href="$classC2DArray.html" title="Basically a 2D array of chars made with std::vector." alt="" coords="5,104,85,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="48,147,48,224,42,224,42,147"/>
+<area shape="rect" id="Node000004" href="$classCPlayer.html" title=" " alt="" coords="102,224,170,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="152,263,179,302,197,322,218,339,240,351,265,360,311,371,309,376,263,365,238,356,215,344,194,326,175,306,147,266"/>
+<area shape="rect" id="Node000005" href="$classCGameLayout.html" title="Layout for CStateGame, defines where all sub&#45;windows should be." alt="" coords="194,224,299,251"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="261,263,281,300,308,340,331,363,327,367,304,343,277,303,256,265"/>
+<area shape="rect" id="Node000006" href="$classCLayout.html" title="Main Layout for things how are shown on screen." alt="" coords="315,104,386,131"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="331,144,259,225,255,222,327,141"/>
+<area shape="rect" id="Node000007" href="$classCWindow.html" title="A wrap around class for ncurses WINDOW." alt="" coords="191,5,270,32"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="229,48,224,104,224,130,234,182,245,223,240,225,229,183,219,131,219,104,224,47"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="259,40,336,101,333,106,256,44"/>
+<area shape="rect" id="Node000008" href="$classCGhostManager.html" title="Manages ghosts for certain difficulty." alt="" coords="323,224,439,251"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="376,266,350,366,344,364,371,265"/>
+<area shape="rect" id="Node000009" href="$classCMenu.html" title="List of selectable options." alt="" coords="463,224,526,251"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="480,265,447,309,417,343,378,367,375,362,414,339,443,306,475,262"/>
+<area shape="rect" id="Node000010" href="$classCMenuItem.html" title="Simplest type of menu item, only with label and id." alt="" coords="450,104,539,131"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="497,147,497,224,492,224,492,147"/>
+<area shape="rect" id="Node000011" href="$classCTimer.html" title="Timer to measure game ticks." alt="" coords="550,224,614,251"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="585,267,577,306,568,326,555,343,523,358,476,369,377,378,377,373,475,363,521,353,551,339,564,324,572,305,580,266"/>
+</map>

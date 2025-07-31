@@ -1,0 +1,7 @@
+<map id="CState" name="CState">
+<area shape="rect" id="Node000001" title="Abstract class definition of a game state." alt="" coords="83,5,145,32"/>
+<area shape="rect" id="Node000002" href="$classCStateGame.html" title=" " alt="" coords="5,80,103,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,46,66,81,62,78,92,42"/>
+<area shape="rect" id="Node000003" href="$classCStateMenu.html" title=" " alt="" coords="127,80,221,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,42,166,78,162,81,132,46"/>
+</map>

@@ -1,9 +1,9 @@
-#include <Engine/CDialog.h>
-#include <Engine/CLayout.h>
-#include <Engine/CMenu.h>
-#include <Engine/CTime.h>
-#include <Engine/CNCurses.h>
-#include <Engine/CInputManager.h>
+#include "Engine/CDialog.h"
+#include "Engine/CLayout.h"
+#include "Engine/CMenu.h"
+#include "Engine/CTime.h"
+#include "Engine/CNCurses.h"
+#include "Engine/CInputManager.h"
 
 #include <algorithm>
 

@@ -1,0 +1,5 @@
+<map id="CBoard" name="CBoard">
+<area shape="rect" id="Node000001" title="A Board where monsters and player runs." alt="" coords="12,104,78,131"/>
+<area shape="rect" id="Node000002" href="$classC2DArray.html" title="Basically a 2D array of chars made with std::vector." alt="" coords="5,5,85,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,48,48,104,42,104,42,48"/>
+</map>

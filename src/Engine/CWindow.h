@@ -1,11 +1,11 @@
 #ifndef CWINDOW_H_DEFINED
 #define CWINDOW_H_DEFINED
 
-#include <Engine/CNCurses.h>
+#include "Engine/CNCurses.h"
 
 #include <string>
 #include <vector>
-#include </mingw64/include/ncurses/ncurses.h>
+#include <ncurses/ncurses.h>
 
 
 /// Alias for filling whole parent window with child window.

@@ -1,0 +1,5 @@
+<map id="CMenu" name="CMenu">
+<area shape="rect" id="Node000001" title="List of selectable options." alt="" coords="18,125,82,152"/>
+<area shape="rect" id="Node000002" href="$classCMenuItem.html" title="Simplest type of menu item, only with label and id." alt="" coords="5,5,95,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="53,48,53,125,47,125,47,48"/>
+</map>

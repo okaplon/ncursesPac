@@ -1,0 +1,7 @@
+<map id="CLayout" name="CLayout">
+<area shape="rect" id="Node000001" title="Main Layout for things how are shown on screen." alt="" coords="87,5,157,32"/>
+<area shape="rect" id="Node000002" href="$classCGameLayout.html" title="Layout for CStateGame, defines where all sub&#45;windows should be." alt="" coords="5,80,111,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,46,71,81,67,78,99,42"/>
+<area shape="rect" id="Node000003" href="$classCMenuLayout.html" title="Layout of what will be drawn at CStateMenu." alt="" coords="135,80,237,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,42,177,78,173,81,141,46"/>
+</map>
